@@ -5,15 +5,7 @@
 }
 
 li {
-  width: 1px;
-  height: 1px;
   list-style: none;
-  margin-top: 3.35rem;
-  margin-left: 1.3rem;
-  border-radius: 100px;
-  display: inline-block;
-  /* background-color: #000; */
-  box-shadow: 0px 0px 20px 20px #fff704;
 }
 
 html,
@@ -26,11 +18,6 @@ body {
   padding-top: 2rem;
 }
 
-.lights {
-  height: 5rem;
-  background: url("lights.svg") repeat-x;
-}
-
 .title {
   font-size: 2rem;
   margin-top: 2rem;
@@ -38,4 +25,67 @@ body {
   color: rgb(255, 0, 85);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.light {
+  display: block;
+  border-radius: 100%;
+  justify-self: center;
+  align-self: flex-end;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 20px 20px #ffffff00;
+}
+
+.yellow {
+  margin-left: 4.7rem;
+  box-shadow: 0px 0px 30px 20px yellow;
+}
+
+.blue {
+  margin-left: 5.7rem;
+  box-shadow: 0px 0px 30px 20px blue;
+}
+
+.red {
+  margin-left: 4.7rem;
+  box-shadow: 0px 0px 30px 20px red;
+}
+
+.green {
+  margin-left: 5.4rem;
+  box-shadow: 0px 0px 30px 20px green;
+}
+
+.lights-list {
+  height: 5rem;
+  display: flex;
+  background: url("lights.svg") repeat-x;
+}
+
+.lights-list .light:first-child {
+  margin-left: 1.3rem;
+}
+
+/* btns */
+.btns {
+  gap: 0.5rem;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff00;
+}
+
+#start {
+  border-color: greenyellow;
+}
+
+#stop {
+  border-color: red;
 }
