@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  width: 1px;
+  height: 1px;
+  list-style: none;
+  margin-top: 3.35rem;
+  margin-left: 1.3rem;
+  border-radius: 100px;
+  display: inline-block;
+  /* background-color: #000; */
+  box-shadow: 0px 0px 20px 20px #fff704;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 1vh;
+}
+
+body {
+  padding-top: 2rem;
+}
+
+.lights {
+  height: 5rem;
+  background: url("lights.svg") repeat-x;
+}
+
+.title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(255, 0, 85);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
